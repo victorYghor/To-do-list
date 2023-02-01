@@ -2,7 +2,7 @@ var task ,tasknum = [], checkbox, lista;
 
 
 function clicar(){
-    window.location.href="tasks.html"  
+    window.location.href="to-do-list/tasks.html"  
     
 }
 function adicionar(){
