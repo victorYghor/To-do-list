@@ -1,0 +1,82 @@
+:root{
+    --i-red:#e63947cc;
+    --p-blue:#1d3557;
+    --honeydew:#F1FAEE;
+    --p-blue:#A8DADC;
+    --c-blue:#457B9D;
+    --brwon:#dcb6a8;
+}
+
+
+h1{
+    text-align: center;
+    font: Normal 2rem Poiret One;
+    color:var(--honeydew);   
+   }
+
+   button#add{
+    background-color:var(--i-red);
+    border: none;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px var(--p-blue);
+   }
+
+button#add:hover{
+
+    background-color: var(--i-red);
+    transform: 0.2s;
+
+}
+
+label#labeltext{
+  font: normal 50px Poiret One;
+  margin-left: 12px;
+  margin-right: 15px;
+}
+
+input#task{
+    position: absolute;
+    width: 61.3%;
+    height: 50px;
+    padding: auto;
+    font:normal 30px Poiret One;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+body{
+    background-color: var(--honeydew);
+}
+.checkbox{
+
+    width:1.3rem;
+    height: 1.3rem;
+}
+li{
+    list-style-type:none ;
+}
+ol#task{
+    list-style-type: none;
+}
+.container{
+    justify-content: center;
+    flex-direction: row-reverse;
+    display: grid;
+}
+
+.activity{
+    width: 80%;
+    background-color: var(--p-blue);
+    border-radius:0.8rem;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    font: normal 1.3rem Poiret One;
+    
+    
+}
+
