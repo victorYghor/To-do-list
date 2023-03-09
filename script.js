@@ -31,7 +31,12 @@ function adicionar(){
            
 
     function concluida() {
-        return lista.style.textDecoration = 'line-through';
+        var li = this.parentNode
+        if (this.checked) {
+            li.style.textDecoration = "line-through"
+        } else {
+            li.style.textDecoration = "none"
+        }
 
        }
         tasknum.push(task);
